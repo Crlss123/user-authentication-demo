@@ -27,3 +27,6 @@ spring:
             enable: true
   config:
     import: optional:file:.env[.properties]
+security:
+  jwt:
+    secret-key: ${SECRET_KEY}
